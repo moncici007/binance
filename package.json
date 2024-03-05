@@ -1,0 +1,35 @@
+{
+  "name": "@moncici/binance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "coin_scan_binance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moncici007/binance"
+  },
+  "website": "https://github.com/moncici007/binance.git",
+  "keywords": [
+    "binance",
+    "client",
+    "arbitrim"
+  ],
+  "author": "moncici007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moncici007/binance/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "https://github.com/moncici007/binance#readme",
+  "dependencies": {
+    "@moncici/date-time-processor": "^1.0.3",
+    "@moncici/proxy": "^1.0.1",
+    "@moncici/sleep": "^1.0.0",
+    "feishu-notifier": "^1.0.2"
+  }
+}
