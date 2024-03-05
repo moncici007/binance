@@ -16,11 +16,11 @@ export async function getPricesByCoins(symbols) {
       sleep(retryDuration);
     }
     const data = response.data;
-    console.log(`${formatTimestamp(new Date())} ${symbols} 实时价格：`, response.data);
+    log(`${formatTimestamp(new Date())} ${symbols} 实时价格：`, response.data);
     notify('', data);
     return data
   } catch(error) {
-    console.error(`无法获取 ${symbols} USD 价格:`, error.response.data);
+    log(`无法获取 ${symbols} USD 价格:`, error.response.data);
     notify('', error.response.data);
     throw error; // 将错误向上抛出
   }
@@ -35,10 +35,10 @@ export async function getPriceByCoin(symbol) {
       sleep(retryDuration);
     }
     const data = response.data;
-    console.log(`${symbol} 实时价格：`, response.data);
+    log(`${symbol} 实时价格：`, response.data);
     return data
   } catch(error) {
-    console.error(`无法获取 ${symbol} USD 价格:`, error.response.data);
+    log(`无法获取 ${symbol} USD 价格:`, error.response.data);
     throw error; // 将错误向上抛出
   }
 }
@@ -57,7 +57,7 @@ export async function getKlines(symbol) {
     // console.log(`${symbol} 实时价格：`, response.data);
     return data
   } catch(error) {
-    console.error(`无法获取 ${symbol} USD 价格:`, error.response.data);
+    log(`无法获取 ${symbol} USD 价格:`, error.response.data);
     throw error; // 将错误向上抛出
   }
 }
