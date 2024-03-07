@@ -2,6 +2,7 @@
   "name": "@moncici/binance",
   "version": "1.0.2",
   "description": "",
+  "type": "module",
   "main": "coin_scan_binance.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,9 +29,9 @@
   "homepage": "https://github.com/moncici007/binance#readme",
   "dependencies": {
     "@moncici/date-time-processor": "^1.0.3",
-    "@moncici/log": "^1.0.1",
-    "@moncici/proxy": "^1.0.1",
-    "@moncici/sleep": "^1.0.0",
-    "feishu-notifier": "^1.0.2"
+    "@moncici/log": "^1.0.2",
+    "@moncici/proxy": "^1.0.3",
+    "@moncici/sleep": "^1.0.1",
+    "feishu-notifier": "^1.0.3"
   }
 }
