@@ -1,5 +1,5 @@
 {
-  "name": "@VirtualORC84/binance",
+  "name": "@VirtualORC88/binance",
   "version": "1.0.3",
   "description": "",
   "type": "module",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/VirtualORC84/binance"
+    "url": "https://github.com/VirtualORC88/binance"
   },
-  "website": "https://github.com/VirtualORC84/binance.git",
+  "website": "https://github.com/VirtualORC88/binance.git",
   "keywords": [
     "binance",
     "client",
@@ -20,13 +20,13 @@
   "author": "moncici007",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VirtualORC84/binance/issues"
+    "url": "https://github.com/VirtualORC88/binance/issues"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "homepage": "https://github.com/VirtualORC84/binance#readme",
+  "homepage": "https://github.com/VirtualORC88/binance#readme",
   "dependencies": {
     "@moncici/date-time-processor": "^1.0.3",
     "@moncici/log": "^1.0.2",
