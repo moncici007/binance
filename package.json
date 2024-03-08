@@ -1,5 +1,5 @@
 {
-  "name": "@moncici/binance",
+  "name": "@VirtualORC84/binance",
   "version": "1.0.2",
   "description": "",
   "type": "module",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moncici007/binance"
+    "url": "https://github.com/VirtualORC84/binance"
   },
-  "website": "https://github.com/moncici007/binance.git",
+  "website": "https://github.com/VirtualORC84/binance.git",
   "keywords": [
     "binance",
     "client",
@@ -20,18 +20,19 @@
   "author": "moncici007",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/moncici007/binance/issues"
+    "url": "https://github.com/VirtualORC84/binance/issues"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "homepage": "https://github.com/moncici007/binance#readme",
+  "homepage": "https://github.com/VirtualORC84/binance#readme",
   "dependencies": {
     "@moncici/date-time-processor": "^1.0.3",
     "@moncici/log": "^1.0.2",
     "@moncici/proxy": "^1.0.3",
     "@moncici/sleep": "^1.0.1",
+    "@openzeppelin/cli": "^2.8.2",
     "feishu-notifier": "^1.0.3"
   }
 }
